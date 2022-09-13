@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
   border: none;
   text-decoration: none;
@@ -52,13 +53,13 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: start;
-          align-items: center;
+  -ms-flex-align: start;
+  align-items: center;
   background-size: cover !important;
   background-position: center !important;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: center;
+  -ms-flex-pack: start;
+  justify-content: center;
   padding: 2rem 9%;
 }
 
@@ -70,7 +71,7 @@ section {
   font-size: 5rem;
   color: #011806;
   text-transform: uppercase;
-  }
+}
 
 .home .box .content .box-text {
   font-size: 6rem;
@@ -139,7 +140,7 @@ section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(29rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -166,11 +167,12 @@ section {
   padding: 1rem 0;
   line-height: 2;
 }
+
 .packages .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -179,7 +181,7 @@ section {
   background: #fff;
   border: 0.2rem solid #10221b;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: .5rem;
 }
 
@@ -187,7 +189,7 @@ section {
   background: #10221b;
 }
 
-.packages .box-container .box:hover .content > * {
+.packages .box-container .box:hover .content>* {
   color: #fff;
 }
 
@@ -203,7 +205,7 @@ section {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: .5rem;
 }
 
@@ -260,19 +262,23 @@ section {
     font-size: 55%;
     scroll-padding-top: 7rem;
   }
+
   .home .box {
     padding: 2rem;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background-position: right !important;
   }
+
   .home .box .content {
     text-align: center;
   }
+
   .home .box .content span {
     font-size: 3rem;
   }
+
   .home .box .content .box-text {
     font-size: 4rem;
   }
@@ -282,6 +288,7 @@ section {
   html {
     font-size: 50%;
   }
+
   .heading {
     font-size: 3rem;
   }
