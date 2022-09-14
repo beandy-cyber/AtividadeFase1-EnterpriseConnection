@@ -54,6 +54,7 @@ section {
   -ms-flex-pack: start;
   justify-content: center;
   padding: 2rem 9%;
+  background-color: #219150;
 }
 
 .home .box .content {
@@ -259,6 +260,11 @@ section {
   color: #10221b;
   padding: 1rem 0;
   line-height: 2;
+}
+
+.footer {
+  background: url(https://eu-assets.simpleview-europe.com/deanwye/imageresizer/?image=%2Fdbimgs%2FFDWV%20Gallery%20-%20Things%20To%20Do%20-%20Tintern%20Abbey%20in%20the%20Forest%20of%20Dean%20and%20Wye%20Valley.jpg&action=FeaturedItemsScroll20193x2) top center no-repeat; 
+  opacity: 0.85;
 }
 
 .footer .credit {
