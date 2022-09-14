@@ -61,7 +61,7 @@ section {
   width: 50rem;
   padding: 20px;
   box-sizing: border-box;
-  background-color: rgba(50, 191, 92, 0.329);
+  background-color: rgba(50, 191, 92, 0.476);
 }
 
 .home .box .content span {
@@ -270,25 +270,17 @@ section {
   background-attachment: fixed;
 }
 
-.footer .box-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 1.5rem;
-}
-
 .footer .credit {
   text-align: center;
-  margin-top: 2.5rem;
-  padding: 1rem;
+  margin-top: 15rem;
+  padding: 10px;
   padding-top: 2.5rem;
   font-size: 2rem;
   color: #10221b;
   text-transform: capitalize;
   font-weight: 700;
   box-sizing: border-box;
-  background-color: rgba(158, 134, 134, 0.496);
+  background-color: rgba(164, 144, 144, 0.498);
 }
 
 .footer .credit span a {
