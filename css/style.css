@@ -246,7 +246,7 @@ section {
 .category .box-container .box img {
   height: 20rem;
   width: 20rem;
-  border-radius: 50%;
+  border-radius: 40%;
   margin-bottom: 1rem;
 }
 
