@@ -266,8 +266,16 @@ section {
 }
 
 .footer {
-  background: url(https://eu-assets.simpleview-europe.com/deanwye/imageresizer/?image=%2Fdbimgs%2FFDWV%20Gallery%20-%20Things%20To%20Do%20-%20Tintern%20Abbey%20in%20the%20Forest%20of%20Dean%20and%20Wye%20Valley.jpg&action=FeaturedItemsScroll20193x2) top center no-repeat;
-  opacity: 0.85;
+  background: url(https://eu-assets.simpleview-europe.com/deanwye/imageresizer/?image=%2Fdbimgs%2FFDWV%20Gallery%20-%20Things%20To%20Do%20-%20Tintern%20Abbey%20in%20the%20Forest%20of%20Dean%20and%20Wye%20Valley.jpg&action=FeaturedItemsScroll20193x2) center center no-repeat;
+  background-attachment: fixed;
+}
+
+.footer .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
 }
 
 .footer .credit {
@@ -284,7 +292,7 @@ section {
 }
 
 .footer .credit span a {
-  color: #219150;
+  color: #26073c;
   text-transform: lowercase;
   font-weight: 900;
 }
