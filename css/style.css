@@ -61,7 +61,8 @@ section {
   width: 50rem;
   padding: 20px;
   box-sizing: border-box;
-  background-color: rgba(50, 191, 92, 0.476);
+  background-color: rgba(50, 191, 92, 0.700);
+  border-radius: 5px;
 }
 
 .home .box .content span {
@@ -270,14 +271,25 @@ section {
   background-attachment: fixed;
 }
 
+.footer .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
 .footer .content {
+  width: 50rem;
   text-align: center;
   margin-top: 15rem;
   padding: 10px;
-  text-transform: uppercase;
   box-sizing: border-box;
-  background-color: rgba(164, 144, 144, 0.79);
-  border-radius: 25px;
+  text-transform: uppercase;
+  background-color: rgba(200, 200, 200, 0.8);
+  border-radius: 10px;
 }
 
 .footer .content span {
