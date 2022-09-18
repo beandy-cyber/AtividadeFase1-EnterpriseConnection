@@ -274,23 +274,13 @@ section {
   text-align: center;
   margin-top: 15rem;
   padding: 10px;
-  padding-top: 2.5rem;
   font-size: 2rem;
-  color: #10221b;
+  color: #26073c;
   text-transform: capitalize;
   font-weight: 700;
   box-sizing: border-box;
-  background-color: rgba(164, 144, 144, 0.498);
-}
-
-.footer .final span a {
-  color: #26073c;
-  text-transform: lowercase;
-  font-weight: 900;
-}
-
-.footer .final span a:hover {
-  font-size: 3rem;
+  background-color: rgba(164, 144, 144, 0.79);
+  border-radius: 25px;
 }
 
 @media (max-width: 1200px) {
