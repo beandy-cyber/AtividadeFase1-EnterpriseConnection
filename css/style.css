@@ -270,17 +270,26 @@ section {
   background-attachment: fixed;
 }
 
-.footer .final {
+.footer .content {
   text-align: center;
   margin-top: 15rem;
   padding: 10px;
-  font-size: 2rem;
-  color: #26073c;
-  text-transform: capitalize;
-  font-weight: 700;
+  text-transform: uppercase;
   box-sizing: border-box;
   background-color: rgba(164, 144, 144, 0.79);
   border-radius: 25px;
+}
+
+.footer .content span {
+  font-size: 3rem;
+  color: #110118;
+  font-weight: 500;
+}
+
+.footer .content .box-text {
+  font-size: 4rem;
+  color: #26073c;
+  font-weight: 700;
 }
 
 @media (max-width: 1200px) {
