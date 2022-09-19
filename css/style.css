@@ -277,8 +277,7 @@ section {
   display: flex;
   -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .footer .content {
